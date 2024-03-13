@@ -2,11 +2,11 @@
 name = "progetto-one"
 version = "0.1.0"
 description = ""
-authors = ["EVIOLAL9U <leonardo.viola.nttdata@skytv.it>"]
+authors = ["<leonardo.viola.19@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.11"
 
 
 [build-system]
