@@ -6,7 +6,9 @@ class FunzioneMatematica(ABC):
     def calcola(self, x):
         pass
 
+
 class FunzioneEsponenziale(FunzioneMatematica):
+
     def __init__(self, base):
         self.base = base
 
