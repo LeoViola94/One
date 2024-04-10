@@ -1,5 +1,5 @@
 import unittest
-from exponential import FunzioneEsponenziale
+from math_function.math_function.exponential import FunzioneEsponenziale
 
 
 class TestFunzioneEsponenziale(unittest.TestCase):
