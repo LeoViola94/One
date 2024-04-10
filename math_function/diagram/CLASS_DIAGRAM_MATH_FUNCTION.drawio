@@ -1,0 +1,38 @@
+<mxfile host="app.diagrams.net" modified="2024-04-10T16:21:29.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="KKK6DUkZNwfuVpR7jmkl" version="24.2.3" type="device">
+  <diagram name="Pagina-1" id="WxjRlMJ6CQDbpo3AZING">
+    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5BxpYxPhNkIaKXaV63tA-1" value="ENTRY POINT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5BxpYxPhNkIaKXaV63tA-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="250" as="sourcePoint" />
+            <mxPoint x="220" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5BxpYxPhNkIaKXaV63tA-3" value="main.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5BxpYxPhNkIaKXaV63tA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="5BxpYxPhNkIaKXaV63tA-4" target="5BxpYxPhNkIaKXaV63tA-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5BxpYxPhNkIaKXaV63tA-7" value="&lt;font style=&quot;&quot; face=&quot;Helvetica&quot;&gt;ABSTRACT CLASS:&amp;nbsp;FunzioneMatematica()&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;&quot; face=&quot;Helvetica&quot;&gt;---&amp;gt; CHILD CLASS:&lt;/font&gt;&lt;font color=&quot;#0c0c0d&quot; style=&quot;&quot; face=&quot;Helvetica&quot;&gt;FunzioneEsponenziale()&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="170" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5BxpYxPhNkIaKXaV63tA-4" value="exponential.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5BxpYxPhNkIaKXaV63tA-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;MATHEMATICAL FUNCTION: EXPONENTIAL&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="360" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

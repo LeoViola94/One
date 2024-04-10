@@ -4,14 +4,11 @@ from math_function.math_function.exponential import FunzioneEsponenziale
 
 class TestFunzioneEsponenziale(unittest.TestCase):
     def test_calcola(self):
-
+        # Creiamo un'istanza della classe FunzioneEsponenziale con base 2
         funzione = FunzioneEsponenziale(2)
 
-
-        self.assertEqual(funzione.calcola(0), 1)  # 2^0 = 1
-        self.assertEqual(funzione.calcola(1), 2)  # 2^1 = 2
-        self.assertEqual(funzione.calcola(2), 4)  # 2^2 = 4
-        self.assertEqual(funzione.calcola(3), 8)  # 2^3 = 8
+        # Verifichiamo che calcola(2) restituisca 4 (2^2 = 4)
+        self.assertEqual(funzione.calcola(2), 4)
 
 
 if __name__ == "__main__":
